@@ -1,0 +1,51 @@
+/* ═══════════════════════════════════════════════
+   GLOBIS — Design Tokens
+   Modifica qui per cambiare l'intera identità visiva
+   ═══════════════════════════════════════════════ */
+
+:root {
+  /* ── Colori base ── */
+  --bg:          #03080f;
+  --bg-elevated: #060d18;
+  --surface:     rgba(255, 255, 255, 0.04);
+  --surface-hover: rgba(255, 255, 255, 0.07);
+  --border:      rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.15);
+
+  /* ── Colori brand ── */
+  --accent:      #00c8ff;   /* cyan — votazioni */
+  --accent2:     #ff6b35;   /* arancio — notizie */
+  --accent3:     #7fff6b;   /* verde — civico */
+  --accent4:     #ff3b5c;   /* rosso — urgente */
+
+  /* ── Testo ── */
+  --text:        #dce8f5;
+  --text-muted:  #8a9bb0;
+  --dim:         #4a5a6e;
+
+  /* ── Tipografia ── */
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  /* ── Spaziatura ── */
+  --gap-xs:  4px;
+  --gap-sm:  8px;
+  --gap-md:  14px;
+  --gap-lg:  24px;
+  --gap-xl:  28px;
+
+  /* ── Bordi ── */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* ── Transizioni ── */
+  --transition-fast:   0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow:   0.6s ease;
+
+  /* ── Z-index stack ── */
+  --z-map:     1;
+  --z-ui:      100;
+  --z-overlay: 200;
+  --z-loading: 999;
+}
